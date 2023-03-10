@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+
+<body>
+
+
+    <!--header-->
+    <div class="m-0">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#0E0E0E">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="img/logo2.png" width="130" height="130" alt="" href="index.html">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    style="background-color:#FFFCF2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+
+                        <a href="index.html" class="nav-item nav-link active" id="inicio">Inicio</a>
+                        <a href="#reco" class="nav-item nav-link" id="recomendados">Recomendados</a>
+                        <a href="#lect" class="nav-item nav-link" id="ultimasLecturas">Últimas lecturas</a>
+                        <a href="#contact" class="nav-item nav-link" id="contacto">Contacto</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--gif inicio-->
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+
+            <div class="col-xs- col-sm-12 col-md-12" style="background-color:#202020" id="principio">
+                <img class="fotoLibro" src="img/biblioteca.gif" id="foto" width="60%" alt="Responsive image">
+
+            </div>
+            <!--intro-->
+            <div class="col-xs- col-sm-12 col-md-12" style="background-color:#FFFCF2">
+                <p id="p1">
+                    ¿Qué vas a encontrar en esta página web?
+                </p>
+                <img class="line" src="img/whiteline.png" id="line" width="40%" alt="Responsive image">
+            </div>
+
+
+            <div class="col-xs- col-sm-6 col-md-6" style="background-color:#FFFCF2">
+                <p id="p2">Aquí encontrarás una pequeña colección de clásicos de diferentes épocas y distintos autores
+                    internacionales.
+                    Al mismo tiempo puedes consultar una pequeña sección de últimas lecturas y de recomendados.
+                </p>
+
+            </div>
+
+            <div class="col-xs- col-sm-6 col-md-6" style="background-color:#FFFCF2">
+                <p id="p3">Cabe destacar que los temas de estos libros son principalmente: misterio, filosóficos y
+                    psicológicos.</p>
+
+            </div>
+
+            <!--quote-->
+            <div class="col-xs- col-sm-12 col-md-12" style="background-color:#202020">
+                <p id="p4">
+                    "La lectura de todos los buenos libros es como<br> conversar con las mejores mentes del pasado."
+                </p>
+                <img class="line" src="img/linewh.png" id="linedes" width="40%" alt="Responsive image">
+                <p id="p5">
+                    - René Descartes.
+                </p>
+            </div>
+
+            <!--carrousel recomendados-->
+            <div class="col-xs col-sm-6 col-md-5 col-lg-3" id="reco">
+                <p id="p1">
+                    Recomendados
+                </p>
+                <img class="line" src="img/whiteline.png" id="line" width="40%" alt="Responsive image">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    style="background-color:#FFFCF2">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="alquimia.html">
+                                <img src="img/alquimista.jpg" class="d-block w-100"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="dostoyevsky.html">
+                                <img src="img/dostoyevsky.jpg" class="d-block w-100"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="moscas.html">
+                                <img src="img/mosca.jpg" class="d-block w-100"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+
+
+            </div>
+
+            <!--sección últimas lecturas-->
+            <div class="col-xs col-sm-12 col-md-12" style="background-color:#202020" id="lect">
+                <p id="p7">Últimas lecturas</p>
+                <img class="line" src="img/yellow.png" id="line" width="20%" alt="Responsive image">
+            </div>
+
+            <!--libro1-->
+            <div class="col-xs col-sm-6 col-md-6 col-lg-6" style="background-color:#202020">
+                <p id="p8">
+                    Le recomendaría a todos aquellos que adoran la tensión y los escenarios que te hacen estrujarte la
+                    cabeza este libro de Agatha Christie.<br>
+                    La historia está muy bien desarrollada y los escenarios y reacciones de los personajes<br> están muy
+                    estudiadas de forma que los actos parezcan lo más naturales posibles.<br>
+                    <br> Es muy ameno y ligero de leer, perfecto para leer en una tarde, como mucho dos.
+                    <br> Pertenece a la saga del detective belga Hércules Poirot, en concreto, al número 4.<br> Pulsa en
+                    la foto para ver los detalles
+                </p>
+                <img class="line" src="img/yellow.png" id="linedes" width="80%" alt="Responsive image">
+                <p id="val">8.5/10</p>
+            </div>
+
+            <div class="col-xs col-sm-6 col-md-6" style="background-color: #202020">
+                <a href="los4.html">
+                    <img src="img/los4.jpg" id="foto" width="40%" alt="Responsive image"></a>
+
+            </div>
+
+            <!--libro2-->
+            <div class="col-xs col-sm-6 col-md-6" style="background-color: #202020">
+                <a href="monster.html">
+                    <img src="img/monster.jpg" id="foto" width="40%" alt="Responsive image"></a>
+
+            </div>
+
+
+            <div class="col-xs col-sm-6 col-md-6 col-lg-6" style="background-color:#202020">
+                <p id="p6">
+                    Aunque este es un libro diferente al tratarse de un manga no es por ello, como mucha gente piensa,
+                    infantil o menos interesante.<br>
+                    <br> Es una obra no muy antigua pero con un estilo muy distinto de los mangas actuales, ya que no
+                    incorpora ningún elemento irreal y el estilo es bastante elaborado.
+                    <br> Al contar una única historia, en todo momento presente, desde la perspectiva de diferentes
+                    personalidades, hace que la obra cobre dinamísmo sin perder el hilo de la trama.<br>
+                    <br> Pulsa en la foto para ver los detalles
+                </p>
+                <img class="line" src="img/yellow.png" id="linedes" width="80%" alt="Responsive image">
+                <p id="val">10/10</p>
+            </div>
+
+            <!--libro3-->
+            <div class="col-xs col-sm-6 col-md-6 col-lg-6" style="background-color:#202020">
+                <p id="p6">
+                    Este es uno de los libros más interesantes, a mi parecer, que he leído últimamente.<br>
+                    Se me hace muy interesante ver como el escritor se las ingenió a la hora de describir en su novela
+                    artilugios que en su época no existían pero ahora si han sido creados:<br>
+                    El hablaescribe como los mensajes de voz, la música enlatada como nuestros CDs o neolengua como
+                    nuestros emoticonos. Cabe destacar que este libro tiene más de 70 años.<br>
+                    En mi opinión, es un libro muy crudo y directo al que no le recomendaría a las personas sensibles
+                    pero siempre le puedes dar u intento y ver si es para tí.<br> Pulsa en la foto para ver los detalles
+                </p>
+                <img class="line" src="img/yellow.png" id="linedes" width="80%" alt="Responsive image">
+                <p id="val">9/10</p>
+            </div>
+
+
+            <div class="col-xs col-sm-6 col-md-6" style="background-color: #202020">
+                <a href="1984.html">
+                    <img src="img/1984Portada.jpg" id="foto" width="40%" alt="Responsive image"></a>
+
+            </div>
+
+            <!--contacto-->
+            <div class="col-xs col-sm-12 col-md-12" style="background-color:#202020" id="contact">
+                <p id="p7">CONTACTO</p>
+                <img class="line" src="img/yellow.png" id="line" width="20%" alt="Responsive image">
+            </div>
+
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="nombre" id="formulario">Nombre </label>
+                <input class="form-control" type="text" id="form" size="10"
+                    placeholder="Campo obligatorio, por favor, introduce tu nombre" required />
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="apellidos" id="formulario">Apellidos </label>
+                <input class="form-control" type="text" id="form" size="10"
+                    placeholder="Campo obligatorio, por favor, introduce tus apellidos" required />
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="email" id="formulario">Email</label>
+                <input class="form-control" type="text" id="form" size="10"
+                    placeholder="Campo obligatorio, por favor, introduce tu email" required />
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="dir" id="formulario">Dirección </label>
+                <input class="form-control" type="text" id="form" size="10" />
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="teléfono" id="formulario">Teléfono</label>
+                <input class="form-control" type="text" id="form" size="10"
+                    placeholder="Campo obligatorio, por favor, introduce tu teléfono" required />
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12 d-flex flex-column" style="background-color:#202020">
+                <label for="mensaje" id="formulario">Mensaje</label>
+                <textarea class="form-control" name="mensaje" id="form">
+            </textarea>
+            </div>
+
+            <div class="col-xs col-sm-12 col-md-12" style="background-color:#202020">
+                <br>
+                <input class="text-uppercase fw-bold mb-4" type="submit" value="Enviar " id="enviar">
+            </div>
+
+            <!--mapa-->
+            <a href="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d97218.59659023679!2d-3.780933734888653!3d40.40705316981064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d40.4108437!2d-3.7112391999999996!4m5!1s0xd4227d0c59156c3%3A0x7b92b62a30ca326!2sGta.%20de%20la%20Prta%20de%20Toledo%2C%201%2C%2028005%20Madrid!3m2!1d40.4070743!2d-3.7108938!5e0!3m2!1ses!2ses!4v1678357191270!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="text-reset"
+                target="mapa">Madrid</a>
+
+            <a href="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d6286345.543429446!2d-5.806172683706044!3d39.705839913254636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d38.1023354!2d-3.631923!4m5!1s0x12a4a28431f31b39%3A0xe6618a4518f905d9!2sBiblioteca%20Esquerra%20de%20l&#39;Eixample%20-%20Agust%C3%AD%20Centelles%2C%20Carrer%20del%20Comte%20d&#39;Urgell%2C%20145%2C%2008036%20Barcelona!3m2!1d41.3867597!2d2.1521635!5e0!3m2!1ses!2ses!4v1678357834861!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;"
+                class="text-reset" allowfullscreen="" loading="lazy" target="mapa">Barcelona</a>
+
+
+            <iframe id="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d97218.59659023679!2d-3.780933734888653!3d40.40705316981064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d40.4108437!2d-3.7112391999999996!4m5!1s0xd4227d0c59156c3%3A0x7b92b62a30ca326!2sGta.%20de%20la%20Prta%20de%20Toledo%2C%201%2C%2028005%20Madrid!3m2!1d40.4070743!2d-3.7108938!5e0!3m2!1ses!2ses!4v1678357191270!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!--footer-->
+
+            <div class="b-example-divider"></div>
+
+            <div class="container">
+                <footer class="py-3 my-4">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                        <li class="nav-item"><a href="#reco" class="nav-link px-2 text-muted">Recomendaciones</a></li>
+                        <li class="nav-item"><a href="#lect" class="nav-link px-2 text-muted">Últimas lecturas</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contacto</a></li>
+
+                    </ul>
+                    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+                </footer>
+            </div>
+
+
+
+        </div>
+</body>
+
+</html>

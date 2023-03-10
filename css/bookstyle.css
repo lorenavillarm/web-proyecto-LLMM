@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Source+Code+Pro&display=swap');
+
+.m-0 img {
+    position: relative;
+
+}
+
+/*todos los párrafos*/
+p {
+    color: #FFFCF2;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Prata', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+#p1 {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#p4 {
+    margin-left: 50px;
+}
+
+#p2 {
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+
+#p3 {
+    color: black;
+    margin-left: 40px;
+    align-self: center;
+    margin-top: 70px;
+
+}
+
+#p4 {
+    margin-top: 20px;
+}
+
+#foto {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/*foto línea*/
+#line {
+    margin-top: -55px;
+}
+
+/*menu*/
+#inicio,
+#ultimasLecturas,
+#recomendados,
+#contacto {
+    color: #D6D6D6;
+    margin: 20px;
+}

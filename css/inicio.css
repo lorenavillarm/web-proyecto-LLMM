@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Source+Code+Pro&display=swap');
+
+.m-0 img {
+    position: relative;
+
+}
+
+/*menu*/
+#inicio,
+#ultimasLecturas,
+#recomendados,
+#contacto {
+    color: #D6D6D6;
+    margin: 20px;
+}
+
+/*todos los párrafos*/
+p {
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Prata', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+
+}
+
+#p1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#p2,
+#p3 {
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#p4,
+#p5 {
+    color: #FFD100;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+#p5 {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+
+#p7,
+#p6,
+#p8 {
+    color: #D6D6D6;
+}
+
+#p6,
+#p8 {
+    font-size: 16px;
+    margin-top: 100px;
+
+}
+
+#p8 {
+    margin-top: 20px;
+}
+
+#p7 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*header*/
+#principio {
+    margin-top: 80px;
+}
+
+/*fotos*/
+#line {
+    margin-top: -55px;
+}
+
+#linedes {
+    margin-top: 15px;
+}
+
+
+#foto {
+    margin-top: 30px;
+}
+
+#val {
+    text-align: center;
+    color: #D6D6D6;
+    font-size: 32px;
+    margin-top: 30px;
+
+}
+
+/*formulario*/
+#formulario {
+    text-align: center;
+    color: #D6D6D6;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+#form {
+    width: 40%;
+    text-align: center;
+    align-self: center;
+}
+
+#enviar {
+    background-color: #FFD100;
+}
